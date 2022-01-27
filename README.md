@@ -12,5 +12,5 @@ those of the policy network after a specified number of episodes have terminated
 
 The included PNG file shows a typical performance plot for the agent, generated from a relatively small number of episodes. The blue line represents the per-episode score, while
 the orange line represents the moving average score over a 100 episode period. Although the agent is exhibiting improved performance over time, the control problem is
-not considered to be 'solved' until the agent can demonstrate a minimum moving average score of 195 over a period of 100 consecutive episodes; by tuning the program
-hyperparameters and perhaps modifiying the structure of the neural networks this goal may be attainable.    
+not considered to be 'solved' until the agent can demonstrate a minimum moving average score of 195 over a period of 100 consecutive episodes; by modifiying the structure of the
+neural networks and tuning the program hyperparameters, this goal is attainable in fewer episodes than the example learning trajectory implies.    
